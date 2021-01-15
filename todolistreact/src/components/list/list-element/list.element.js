@@ -16,13 +16,13 @@ const ListElement = (props) => {
             
             <div className = 'buttons'>
 
-            <Button wichOne = 'positive' Event = {props.Event}>
+            <Button wichOne = 'positive' Event = {props.EventPositive}>
 
             {props.status === "done"?<AiOutlineReload/>:<GoCheck/>}
 
             </Button>
 
-            <Button wichOne = 'exclude' Event = {props.Event}>
+            <Button wichOne = 'exclude' Event = {props.EventExclude}>
 
                 <AiFillDelete/>
                 

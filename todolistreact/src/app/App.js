@@ -13,6 +13,10 @@ class App extends Component{
   funcaoTest = () => {
     alert("oi")
   }
+
+  funcaoTestDois = () => {
+    alert("exclude")
+  }
   
 
   render(){
@@ -22,7 +26,8 @@ class App extends Component{
       <div className='App'>
         <List
           tasks = {this.state.tasks}
-          Event = {this.funcaoTest}
+          EventPositive = {this.funcaoTest}
+          EventExclude = {this.funcaoTestDois}
         />
       </div>
     )
