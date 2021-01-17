@@ -1,5 +1,5 @@
 .button{
-    width: 3rem;
+    width: auto;
     height: 3rem;
 
     color: white;
@@ -8,8 +8,8 @@
 }
 
 .button svg{
-    height: 70%;
-    width: 70%;
+    height: 75%;
+    width: 75%;
 }
 
 .positive{
@@ -36,4 +36,17 @@
 
 .exclude:hover{
     background-color: rgb(141, 6, 3);
+}
+
+.add{
+    background-color: rgb(22, 62, 156);
+
+    border: none;
+
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.add:hover{
+    background-color: rgb(6, 49, 148);
 }
