@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import List from '../components/list/list';
-import Input from '../components/input-element/input'
+import Input from '../components/input-element/input';
 
 class App extends Component{
   state = {
@@ -38,7 +38,8 @@ class App extends Component{
     tasks.push({id: this.state.tasks.length, status: 'to do', task: this.state.taskSavior})
 
     this.setState({tasks: tasks})
-    
+
+    this.setState({taskSavior: ''})
   }
 
   //função para digitar
